@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    margin: 0rem;
+    background-image: url('../SantaMonicaPier2011.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+ }
+  
+  a {
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 1rem;
+    color: white; 
+    padding: 15px;
+  }
+
+
+  img {
+    display: flex; 
+    position: fixed;  
+    width: 7.5%;
+    height: auto;
+ }
+  
+    
+input[type="text"] {
+        width: 800px;
+    }   
+
+  div.topnav {
+    display: flex; 
+    background-color: white;
+    border: thin;
+    position: fixed; 
+    left: 5rem;
+    top: 0;
+    right: 0;
+    height: 5rem; 
+  }
+
+  nav ul{
+    display: flex;
+    text-decoration: none;  
+    text-align: right;
+    float: right;
+   }
+
+   nav ul li{
+    display: inline; 
+  }
+
+  main{
+      margin-top: 3rem;
+      font-size: 1.75rem;
+      font-weight: lighter;
+      color: white; 
+      padding-right: 25px; 
+      float: right;
+  }
+
+  h1{
+      font-size: 3.5rem;
+      padding-top: 100px;
+      padding-bottom: 0px;
+      text-align: right;
+      padding-right: 100px;
+      padding-left: 0px;
+  }
+
+  input{
+    background-color: white;
+    border: none;
+    position: fixed; 
+    left: 5rem;
+    top: 0;
+    right: 80px;
+    height: 5rem; 
+    font-size: larger; 
+  }
+
+
+  
